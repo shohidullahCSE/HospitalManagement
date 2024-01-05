@@ -1,0 +1,29 @@
+.icon-continer{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.icon-continer .icons{
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 2.5rem;
+}
+.icon-continer .icons i{
+    font-size: 4.5rem;
+    color:var(--green);
+    padding-bottom: .7rem;
+}
+.icon-continer .icons h3{
+    font-size: 4.5rem;
+    color:var(--black);
+    padding: .5rem;
+}
+.icon-continer .icons p{
+    font-size: 1.7rem;
+    color:var(--black);
+   
+}
